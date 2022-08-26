@@ -10,11 +10,12 @@ package tarea2login;
  */
 public class Tarea2Login {
 
-    /**
-     * @param args the command line arguments
-     */
+    public static Login ventana;
+
     public static void main(String[] args) {
         // TODO code application logic here
+        ventana = new Login();
+        ventana.setVisible(true);
     }
-    
+
 }
